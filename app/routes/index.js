@@ -6,4 +6,10 @@ module.exports = function(application){
 	application.post('/auth', function(req, res){
 		application.app.controllers.index.auth(application, req, res);
 	});
+
+	application.post('/login', function(req, res){
+		application.app.controllers.index.login(application, req, res);
+	
+	});
 }
+
