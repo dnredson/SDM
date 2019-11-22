@@ -5016,12 +5016,12 @@ License - nucleoapp.com/license/
 .off-canvas-sidebar .nav>li>a:focus {
   background: rgba(200, 200, 200, 0.2);
 }
-
+/* background-color: #f4f3ef; */
 .main-panel {
   position: relative;
   float: right;
   width: calc(100% - 260px);
-  background-color: #f4f3ef;
+  background-color: #ebf2f8;
   -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
